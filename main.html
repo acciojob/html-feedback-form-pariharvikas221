@@ -3,11 +3,28 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+ <!-- the entire body must be written by student -->
+ <form method="post">
+
+  <h1>Feedback Form</h1>
+
+  <label for="name">Name</label>
+  <input type="text" id="name" minlength="3" maxlength="50" required ><br><br>
+
+  <label for="portfolio"><input type="url" id="portfolio" required></label><br><br>
+
+  <label for="favColor">Favourite Colour</label>
+  <input type="color" id="favColor"><br><br>
+
+  <label for="likeness">Likeness
+   <input type="range" min="1" max="100"  id="likeness">
+  </label>
+  
+ </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
